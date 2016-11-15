@@ -14,8 +14,6 @@
 		09CECDAE1DC22C33008D4879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CECDAD1DC22C33008D4879 /* Images.xcassets */; };
 		09CECDB11DC22C33008D4879 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09CECDAF1DC22C33008D4879 /* LaunchScreen.xib */; };
 		09CECDBD1DC22C33008D4879 /* UIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CECDBC1DC22C33008D4879 /* UIButtonTests.m */; };
-		09CECDC71DC2300D008D4879 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09CECDC61DC2300D008D4879 /* 2.jpeg */; };
-		09CECDC91DC23022008D4879 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 09CECDC81DC23022008D4879 /* 1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		09CECDB61DC22C33008D4879 /* UIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CECDBB1DC22C33008D4879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CECDBC1DC22C33008D4879 /* UIButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonTests.m; sourceTree = "<group>"; };
-		09CECDC61DC2300D008D4879 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpeg; path = ../../2.jpeg; sourceTree = "<group>"; };
-		09CECDC81DC23022008D4879 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +63,6 @@
 		09CECD941DC22C33008D4879 = {
 			isa = PBXGroup;
 			children = (
-				09CECDC81DC23022008D4879 /* 1.jpeg */,
-				09CECDC61DC2300D008D4879 /* 2.jpeg */,
 				09CECD9F1DC22C33008D4879 /* UIButton */,
 				09CECDB91DC22C33008D4879 /* UIButtonTests */,
 				09CECD9E1DC22C33008D4879 /* Products */,
@@ -205,8 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CECDC91DC23022008D4879 /* 1.jpeg in Resources */,
-				09CECDC71DC2300D008D4879 /* 2.jpeg in Resources */,
 				09CECDAC1DC22C33008D4879 /* Main.storyboard in Resources */,
 				09CECDB11DC22C33008D4879 /* LaunchScreen.xib in Resources */,
 				09CECDAE1DC22C33008D4879 /* Images.xcassets in Resources */,
@@ -426,6 +418,7 @@
 				09CECDC21DC22C33008D4879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09CECDC31DC22C33008D4879 /* Build configuration list for PBXNativeTarget "UIButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +427,7 @@
 				09CECDC51DC22C33008D4879 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

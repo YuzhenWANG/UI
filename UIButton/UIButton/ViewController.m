@@ -60,8 +60,8 @@
     //创建一个自定义类型
     UIButton* btnImage=[UIButton buttonWithType:UIButtonTypeCustom];
     btnImage.frame=CGRectMake(100, 300, 50, 50);
-    UIImage* icon01=[UIImage imageNamed:@"1.jpeg"];
-    UIImage* icon02=[UIImage imageNamed:@"2.jpeg"];
+    UIImage* icon01=[UIImage imageNamed:@"1.jpg"];
+    UIImage* icon02=[UIImage imageNamed:@"2.jpg"];
     [btnImage setImage:icon01 forState:UIControlStateNormal];
     [btnImage setImage:icon02 forState:UIControlStateHighlighted];
     
